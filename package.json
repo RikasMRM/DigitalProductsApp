@@ -1,19 +1,15 @@
 {
-  "name": "ReactNativeCLIQuickstart",
+  "name": "DigitalProductsApp",
   "version": "1.0.0-alpha",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "build:e2e": "detox build --configuration ios.sim.debug",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "lint:tsc": "tsc --noEmit",
     "start": "react-native start",
-    "test": "jest",
-    "test:e2e": "detox test --configuration ios.sim.debug",
-    "test:e2e:watch": "yarn test:e2e --watch",
-    "test:watch": "yarn test --watch"
+    "test": "jest"
   },
   "dependencies": {
     "@gluestack-style/react": "^1.0.57",
